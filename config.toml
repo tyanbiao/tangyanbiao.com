@@ -1,0 +1,21 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-CN'
+title = '莴笋'
+theme = "paper"
+
+[params]
+  # color style
+  color = 'light'                 # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'ww_watson'     # twitter.com/YOUR_TWITTER_ID
+  github = 'tyanbiao'       # github.com/YOUR_GITHUB_ID
+
+  # home page profile
+  avatar = 'tyanbiao@gmail.com'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  name = 'wwwatson'
+  bio = 'Enjoy programing'
+
+  # misc
+  disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
