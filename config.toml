@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'zh-CN'
-title = '莴笋'
+title = '莴莴莴笋'
 theme = "paper"
 
 [params]
@@ -8,7 +8,7 @@ theme = "paper"
   color = 'light'                 # linen, wheat, gray, light
 
   # header social icons
-  twitter = 'ww_watson'     # twitter.com/YOUR_TWITTER_ID
+  twitter = '_ww_watson'     # twitter.com/YOUR_TWITTER_ID
   github = 'tyanbiao'       # github.com/YOUR_GITHUB_ID
 
   # home page profile
@@ -19,3 +19,11 @@ theme = "paper"
   # misc
   disableHLJS = true              # disable requesting highlight.js
   monoDarkIcon = true             # show monochrome dark mode icon
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
