@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://tangyanbiao.com'
 languageCode = 'zh-CN'
 title = '莴莴莴笋'
 theme = "paper"
@@ -10,6 +10,7 @@ theme = "paper"
   # header social icons
   twitter = '_ww_watson'     # twitter.com/YOUR_TWITTER_ID
   github = 'tyanbiao'       # github.com/YOUR_GITHUB_ID
+  rss = true
 
   # home page profile
   avatar = 'https://images-1252366546.cos.ap-guangzhou.myqcloud.com/notes/2022-9-11/avatar.jpg'
