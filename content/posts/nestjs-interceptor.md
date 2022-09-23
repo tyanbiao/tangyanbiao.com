@@ -5,11 +5,14 @@ draft: false
 ---
 
 ## 拦截器（interceptor）
-![](https://images-1252366546.cos.ap-guangzhou.myqcloud.com/notes/2022-9-21/Interceptors_1.png)
-官方文档介绍：
->拦截器是一个实现了 实现 `NestInterceptor` 接口并使用 `@Injectable()` 装饰器注解的类。
+[官方文档](https://docs.nestjs.com/interceptors)介绍：
 
-拦截器主要有这几个作用
+>拦截器是一个实现了 `NestInterceptor` 接口并使用 `@Injectable()` 装饰器注解的类。
+
+![](https://images-1252366546.cos.ap-guangzhou.myqcloud.com/notes/2022-9-21/Interceptors_1.png)
+每一个拦截器都实现了 `intercept` 方法，和 Koa 的中间件模型很相似，`intercept` 方法接收两个参数，第一个参数是执行上下文，第二个参数是一个 `CallHandler`，调用 `CallHandler` 的 `handle` 方法开始执行下一步处理逻辑，最终调用 `Controller` 中的路由方法。
+
+拦截器主要有这几个作用：
 - 在路由方法执行的前后处理额外的逻辑
 - 转换从路由方法返回的结果
 - 转换从路由方法抛出的异常
@@ -42,7 +45,7 @@ export class RestfulInterceptor<T> implements NestInterceptor<T, RestfullRespons
 ```
 
 ## 忽略拦截器
-日常开发中，通常会把拦截器绑定到全局或者绑定到 `Controller` 上，这样不必为每一个路由方法都绑定一次拦截器，但是很多时候又想给单独在一个路由上取消绑定拦截器。幸运的是，NestJS 可以为路由自定义 `metadata` ，我们可以在拦截器中获取自定义的 `metadata` 来执行特定的逻辑。
+日常开发中，通常会把拦截器绑定到全局或者 `Controller` 上，这样不必为每一个路由方法都绑定一次拦截器，但是很多时候又想给单独在一个路由上取消绑定拦截器。幸运的是，NestJS 可以为路由自定义 `metadata` ，我们可以在拦截器中获取自定义的 `metadata` 来执行特定的逻辑。
 新建一个 `ignore-interceptor.decorator.ts` 文件。
 
 ```TypeScript
