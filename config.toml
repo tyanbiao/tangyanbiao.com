@@ -1,7 +1,8 @@
 baseURL = 'https://tangyanbiao.com'
 languageCode = 'zh-CN'
 title = '莴莴莴笋'
-theme = "paper"
+theme = ["plausible-hugo", "paper"]  # Add this theme to your already existing other themes
+
 
 [params]
   # color style
@@ -13,7 +14,7 @@ theme = "paper"
   rss = true
 
   # home page profile
-  avatar = 'https://images-1252366546.cos.ap-guangzhou.myqcloud.com/notes/2022-9-11/avatar.jpg'
+  avatar = 'https://tangyanbiao.com/avatar.jpg'
   # avatar = 'tyanbiao@gmail.com'
   name = 'wwwatson'
   bio = 'Enjoy programing'
@@ -21,6 +22,12 @@ theme = "paper"
   # misc
   disableHLJS = true              # disable requesting highlight.js
   monoDarkIcon = true             # show monochrome dark mode icon
+
+[params.plausible]
+  enable = true  # Whether to enable plausible tracking
+  domain = "tangyanbiao.com"  # Plausible "domain" name/id in your dashboard
+  gitstar = false
+  proxy_netlify = true
 
 [menu]
 
