@@ -2,7 +2,7 @@ baseURL = 'https://tangyanbiao.com'
 languageCode = 'zh-CN'
 title = '莴莴莴笋'
 theme = ["plausible-hugo", "paper"]  # Add this theme to your already existing other themes
-
+paginate = 10
 
 [params]
   # color style
