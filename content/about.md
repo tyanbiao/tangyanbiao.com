@@ -6,7 +6,7 @@ draft: false
 
 ## wwwatson
 
-我是莴笋（watson），网络上常用 ID `莴莴莴笋`和 `wwwatson`，主业是前端开发者，编程之外喜欢读书和创造小产品，正在努力成为全职独立开发者，这里会记录技术、产品、自我成长相关的内容。
+我是莴笋（watson），网络上常用 ID 莴莴莴笋 和 wwwatson，主业是前端开发者，编程之外喜欢读书和创造小产品，正在努力成为全职独立开发者，这里会记录技术、产品、自我成长相关的内容。
 
 你也可以在这些地方联系到我。
 - GitHub: [github.com/tyanbiao](https://github.com/tyanbiao)
