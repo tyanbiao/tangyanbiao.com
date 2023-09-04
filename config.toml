@@ -14,7 +14,7 @@ paginate = 10
   rss = true
 
   # home page profile
-  avatar = 'https://tangyanbiao.com/avatar.jpg'
+  avatar = 'https://tangyanbiao.com/avatar.jpeg'
   # avatar = 'tyanbiao@gmail.com'
   name = 'wwwatson'
   bio = 'Enjoy programing'
