@@ -1,6 +1,6 @@
 [submodule "themes/paper"]
 	path = themes/paper
-	url = https://github.com/nanxiaobei/hugo-paper
+	url = https://github.com/tyanbiao/hugo-paper
 [submodule "themes/plausible-hugo"]
 	path = themes/plausible-hugo
 	url = https://github.com/divinerites/plausible-hugo.git

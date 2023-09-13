@@ -22,7 +22,15 @@ paginate = 10
   # misc
   disableHLJS = true              # disable requesting highlight.js
   monoDarkIcon = true             # show monochrome dark mode icon
-
+  comments = true
+[params.giscus]
+  repo = 'tyanbiao/blog_discuss'
+  repoId = 'R_kgDOKS_9KA'
+  category = 'Announcements'
+  categoryId = 'DIC_kwDOKS_9KM4CZRiS'
+  mapping = 'pathname'
+  theme = 'noborder_light'
+  lang = 'zh-CN'
 [params.plausible]
   enable = true  # Whether to enable plausible tracking
   domain = "tangyanbiao.com"  # Plausible "domain" name/id in your dashboard
