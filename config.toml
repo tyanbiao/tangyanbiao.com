@@ -38,12 +38,24 @@ paginate = 10
   proxy_netlify = true
 
 [menu]
+  [[menu.main]]
+    identifier = "产品笔记"
+    name = "产品笔记"
+    url = "/tags/产品笔记/"
+    weight = 9
 
+  [[menu.main]]
+    identifier = "weekly"
+    name = "Weekly"
+    url = "/tags/weekly/"
+    weight = 10
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 11
+
+
 
   # [[menu.main]]
   #   identifier = "projects"
